@@ -1,0 +1,32 @@
+.footer-section {
+}
+.footer-section__wrapper {
+    display: flex;
+    background-color:   #2C343E;
+    justify-content: space-between;
+    padding: 47px 85px;
+}
+.footer-section__cards {
+    @include listunstyled;
+    display: flex;
+}
+.footer-section__item {
+}
+.footer-section__item:not(:last-child){
+    margin-right: 33px;
+}
+.footer-section__item-link {
+    @include link-settings;
+    color: #83888F;
+}
+.footer-section__messenger-cards {
+    display: flex;
+    @include listunstyled;
+}
+.footer-section__messenger__item {
+}
+.footer-section__messenger__item:not(:last-child){
+    margin-right: 24px;
+}
+.footer-section__messenger-img {
+}

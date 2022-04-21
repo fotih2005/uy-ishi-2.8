@@ -1,0 +1,25 @@
+.hero-section {
+    padding-bottom: 168px;
+}
+.hero-section__wrapper {
+    padding: 137px 0 137px 85px;
+    background-image: url(/imges/Object.jpg);
+    background-position: calc(50% + 1px);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+}
+.hero-section__content-wrapper {
+    width: 445px;
+    color: #fff;
+}
+.hero-section__title {
+    margin: 0;
+    margin-bottom: 24px;
+    padding: 0;
+    font-size: 40px;
+}
+.hero-section__content {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
